@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+html {
+	width: 100%;
+	height: 100%;
+}
+	
+
+body {
+	background: #AED6F1   ;
+}
+
+
+
+/* Navbar */
+.navbar {
+	background: #21618C ;
+}
+
+.navbar a, .navbar a:hover, .navbar a:focus, .navbar a:active {
+	color: #f1f1f1 !important;
+	text-decoration: none;
+}
+
+.navbar-brand img {
+	width: 52px;
+}
+
+/* Home */
+.homeBg {
+    background-image: url('../img/luffy.png');
+    background-size: contain;
+	background-position: right bottom; 
+    background-repeat: no-repeat;
+    text-align: center;
+
+} 
+
+.homeText {
+	 position: absolute;
+	z-index: 100;
+    margin-top: 10px;
+	color: #424242;
+    right: 40rem;
+    padding: 60px;
+    margin: 10px;
+    display: inline-block;
+}
+.homeText .titulo {
+	font-weight: bold;
+	color: #c99806;
+	font-style: normal;
+}
+
+.little-about {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 4px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.homeText {
+		margin: 8rem 1rem 0;
+		right: 0;
+	}
+}
+
+
+/* Sub Pages */
+.subpage {
+	margin-top: 8.5rem;
+	margin-bottom: 8rem;
+}
+
+/* About */
+.avatar {
+	max-width: 75%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 3rem;
+}
+
+.progress {
+	background: #e6caf1;
+}
+
+.progress-bar {
+	background: #af78c5;
+}
+
+/* Projects */
+
+/* Gaming */
+.btn-discord, .btn-discord:active, .btn-discord:focus {
+	background: #738adb;
+	color: #ffffff;
+	padding: 1rem 1.5rem;
+}
+
+.btn-discord:hover {
+	background: #677cc4;
+	color: #ffffff;
+}
+
+/* Contact */
+#contact .social {
+	padding: 3.5rem 0 1.5rem;
+}
+
+.social a {
+	color: #965f96;
+}
+
+.hidden {
+	display: none;
+}
+
+.g-recaptcha > div {
+	margin: 0 auto;
+	display: block;
+}
+
+.slider {
+	width: 800px;
+	height: 400px;
+	background: url('../img/1.jpg');
+	margin: 100px auto;
+	animation: slide 10s infinite;
+}
+
+@keyframes slide {
+	33%{
+		background: url('../img/2.jpg');
+	}
+	66%{
+		background: url('../img/3.jpg');
+	}
+	100%{
+		background: url('../img/1.jpg');
+	}
+}
+
+
+
+/* Footer */
+footer {
+	padding: 2rem 0;
+	background: #946fa2;
+	color: #f1f1f1;
+}
+
+/* Others */
+.alert-purple {
+	margin-top: 1.5rem;
+	color: #5b2967;
+	background-color: #dcd1f1;
+	border-color: #cdbeeb;
+	text-align: center;
+}
+
