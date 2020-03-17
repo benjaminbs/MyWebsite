@@ -11,7 +11,6 @@ body {
 }
 
 
-
 /* Navbar */
 .navbar {
 	background: #21618C ;
@@ -84,11 +83,11 @@ body {
 }
 
 .progress {
-	background: #e6caf1;
+	background: #FDEDEC;
 }
 
 .progress-bar {
-	background: #af78c5;
+	background: #CD5C5C;
 }
 
 /* Projects */
@@ -148,14 +147,14 @@ body {
 /* Footer */
 footer {
 	padding: 2rem 0;
-	background: #946fa2;
+	background: #21618C;
 	color: #f1f1f1;
 }
 
 /* Others */
 .alert-purple {
 	margin-top: 1.5rem;
-	color: #5b2967;
+	color: #21618C;
 	background-color: #dcd1f1;
 	border-color: #cdbeeb;
 	text-align: center;
